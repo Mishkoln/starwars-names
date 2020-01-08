@@ -1,5 +1,5 @@
-const uniqueRandomArray = require('unique-random-array');
-const starWarsNames = require('./starwars-names.json');
+import uniqueRandomArray from 'unique-random-array';
+import starWarsNames from './starwars-names.json';
 
 module.exports = {
     all: starWarsNames,
